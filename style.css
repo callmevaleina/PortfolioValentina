@@ -894,15 +894,16 @@ body {
         width: 300px;
         display: flex;
         justify-content: center;
-        margin-left: 280px;
+        margin-left: 180px;
         margin-top: 25px;
     }
     .hero{
-        width: 720px;
+        width: 375px;
         height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: -50px;
     }
     .hero-left{
         width: fit-content;
@@ -912,72 +913,73 @@ body {
         align-items: center;
         align-content: center;
         position: relative;
-        margin-top: 100px;
+        margin-top: 70px;
         
     }
 
     #vector{
-        width: 700px;
-        height:650px;
+        width: 350px;
+        height:300px;
         display: flex;
         justify-content: center;
-        margin-left: -170px;
+        margin-left: -160px;
     }
 
     .photo{
-        width: 550px;
-        height: 500px;
+        width: 350px;
+        height: 300px;
         position: relative;
-        top: 50px;
+        top: -70px;
         
         
     }
     
     #photo{
-        width: 640px;
-        height: 710px;
+        width: 340px;
+        height: 370px;
         display: flex;
         justify-content: center;
-        margin-left: -240px;
+        margin-left: -265px;
     }
 
     .hero-right{
-        width: 570px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 75px;
-        margin-top: 250px;
+        margin-top: -110px;
         margin-right: 50px;
     }
     
     .hero-title{
-        
-        height: 185px;
-        font-size: 27px;
+        width: 370px;
+        font-size: 16px;
         color: var(--dark);
         display: flex;
         justify-content: center;
         align-items: center; 
+        margin-left: -75px;
+        margin-top: -110px;
     }
     
     .hero-paragraph{
-        width: 570px;
-        margin-top: -50px;
-        margin-left: 5px;
-        font-size: 30px;
+        width: 370px;
+        margin-top: -80px;
+        margin-left: -75px;
+        font-size: 22px;
         text-align: center;
         color: var(--gray);
     }
     
     .hero-sm{
-        width: 400px;
+        width: 290px;
         height: 50px; 
         display: flex;
         justify-content:space-between;
         align-items: center;
-        margin-top: 20px;
-        margin-left: 80px;
+        margin-top: 50px;
+        margin-left: 40px;
     }
     
     .sm-logo{
@@ -996,7 +998,7 @@ body {
     }
     
     .hero-btn{
-        width: 600px;
+        width: 350px;
         height: 65px;
         background: var(--secondary);
         display: flex;
@@ -1004,7 +1006,7 @@ body {
         align-items: center;
         gap:-50px;
         margin-top: 50px;
-        margin-left: -25px;
+        margin-left: 10px;
     
     }
     
@@ -1024,38 +1026,39 @@ body {
     }
     .contact-btn p {
         color: var(--white);
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 200px;
+        margin-right: 155px;
         /* margin-right: 200px; */
     }
     
     .main-container{
-        width: 720px;
+        width: 370px;
         height: fit-content;
         margin-left: 0;
         text-align: center;
     }
     
     .main-container > div > h2{
-        font-size: 40px;
+        font-size: 35px;
         color: var(--dark);
-        margin-top: 7rem;
+        margin-top: 70px;
     }
     
     .about-me{
         width: fit-content;
         margin: 20px;
-        font-size: 30px;
+        font-size: 22px;
         text-align: center;
         line-height: 35px;
         color: var(--gray);
+
     }
     
     .skills{
-        width: 680px;
+        width: 370px;
         height: fit-content;
         /* margin: auto; */
         display: flex;
@@ -1072,8 +1075,8 @@ body {
         margin-right: 30px;
         background: var(--white-gray);
         text-align: left;
-        height: 400px;
-        width: 320px;
+        height: 250px;
+        width: 230px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1085,17 +1088,17 @@ body {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 280px;
+        width: 150px;
         margin-top: -40px;
         margin-left: 0px;
-        font-size: 25px;
+        font-size: 18px;
         /* gap: 150px; */
     }
 
     .icon-skills img {
        width: 30px;
        height: auto;
-        margin-right: 20px;
+        margin-right: 15px;
         font-size: 25px;
         gap: 150px;
     }
@@ -1105,18 +1108,18 @@ body {
     
     .desc-skills{
       margin-left: 20px;
-      width: 300px;
-      font-size: 20px;
-      line-height: 25px;
+      width: 140px;
+      font-size: 12px;
+      line-height: 15px;
       color: var(--gray);
     }
     
     .experience-container{
-        width: 600px;
+        width: 370px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 50px;
+        gap: px;
         margin:auto;
         margin-top: -70px;
     }
@@ -1124,9 +1127,10 @@ body {
     .experience{
         display: flex;
         align-items: center;
-        width: 600px;
-        gap: 100px;
+        width: 370px;
+        gap: 50px;
         margin-top: 50px;
+        margin-left: -20px;
     }
     
     .experience-text{
@@ -1134,82 +1138,92 @@ body {
     }
     
     .experience-text > .company-text{
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
         color: var(--dark);
         text-align: start;
-        margin-left: 50px;
+        margin-left: 5px;
     }
     
     .experience-text > .job-text{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 600;
         color: #a19ea0;
         text-align: start;
-        margin-left: 50px;
+        margin-left: 5px;
     
     }
     .experience-text > .years-text{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
         color: #a19ea0;
         text-align: start;
-        margin-left: 50px;
+        margin-left: 5px;
     }
     
     .experience-years{
-        margin-left: 90px;
-        font-size: 22px;
+        margin-left: 65px;
+        font-size: 20px;
         font-weight: 600;
         color: var(--dark);
     }
 
     #amazon-years{
-        margin-left: 120px;
+        margin-left: 90px;
     }
 
     #airbnb-years{
-        margin-left: 125px;
+        margin-left: 95px;
     }
 
     .airbnb, .amazon, .google {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin-right: 20px;
     }
     
     .portfolio{
-        width: 400px;
-        height: 1800px;
+        width: 340px;
+        height: 1250px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 10px;
-        margin:auto;
+        margin-top: -50px;
+       
         
 
     }
 
     .img-box {
-        margin-left: -40px;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: -200px;
+        
     }
     .img-size{
-        width: 500px;
-        height: 400px;
+        width: 340px;
+        height: 270px;
        
     }
     .contact{
-        width: 600px;
+        width: 360px;
         height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin:auto;
         margin-top: 290px;
         
     
+    }
+
+    #contact-title{
+        background-color: yellow;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 100px;
+        margin-top: 150px;
     }
 
     .contact-info p{
@@ -1242,6 +1256,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 200px;
+        
     }
     .icon-contact{
         background: var(--white-cream);
@@ -1291,7 +1306,7 @@ body {
     }
     
     .web-footer{
-        width: 720px;
+        width: 370px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1305,11 +1320,11 @@ body {
         margin-bottom: 50px;
         color: var(--primary);
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         align-content: center;
-       margin-left: -550px;
+       margin-left: -910px;
     }
 }
 
