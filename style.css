@@ -876,7 +876,7 @@ body {
         font-size: 16px; /* 1 rem =  10px */
         font-family: 'Montserrat', sans-serif;
         background: var(--white);
-        width: 100%;
+
     }
     
     .container {
@@ -904,6 +904,7 @@ body {
         flex-direction: column;
         justify-content: center;
         margin-top: -50px;
+
     }
     .hero-left{
         width: fit-content;
@@ -928,7 +929,6 @@ body {
     .photo{
         width: 350px;
         height: 300px;
-        position: relative;
         top: -70px;
         
         
@@ -1115,7 +1115,7 @@ body {
     }
     
     .experience-container{
-        width: 370px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
