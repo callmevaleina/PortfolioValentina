@@ -1057,7 +1057,7 @@ body {
     }
     
     .skills{
-        width: 370px;
+        width: 375px;
         height: fit-content;
         /* margin: auto; */
         display: flex;
@@ -1075,7 +1075,7 @@ body {
         background: var(--white-gray);
         text-align: left;
         height: 250px;
-        width: 230px;
+        width: 260px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1097,7 +1097,7 @@ body {
     .icon-skills h3{
         font-size: 16px;
         margin-bottom: 0px;
-        margin-top: -10px;
+        margin-top: 15px;
     }
 
     .icon-skills img {
@@ -1105,7 +1105,7 @@ body {
         height: auto;
         margin-right: 5px;
         margin-left: 5px;
-        margin-top: -10px;
+        margin-top: 15px;
         font-size: 25px;
         gap: 0px;
     }
