@@ -271,7 +271,7 @@ body {
     display: flex;
     align-items: center;
     width: 320px;
-    gap: 15px;
+    gap: 2px;
 }
 
 .experience-text{
@@ -330,7 +330,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
 }
 .icon-contact{
     background: var(--white-cream);
@@ -605,7 +604,6 @@ body {
         margin-right: 30px;
         background: var(--white-gray);
         text-align: left;
-        height: 400px;
         width: 320px;
         display: flex;
         flex-direction: column;
@@ -619,7 +617,6 @@ body {
         justify-content: flex-start;
         align-items: center;
         width: 280px;
-        margin-top: -40px;
         margin-left: 0px;
         font-size: 25px;
         /* gap: 150px; */
@@ -658,7 +655,7 @@ body {
         display: flex;
         align-items: center;
         width: 600px;
-        gap: 100px;
+        gap: 0px;
         margin-top: 50px;
     }
     
