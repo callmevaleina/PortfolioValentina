@@ -1119,7 +1119,6 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: px;
         margin:auto;
         margin-top: -70px;
     }
@@ -1127,8 +1126,7 @@ body {
     .experience{
         display: flex;
         align-items: center;
-        width: 370px;
-        gap: 50px;
+        width: 360px;
         margin-top: 50px;
         margin-left: -30px;
     }
@@ -1142,7 +1140,7 @@ body {
         font-weight: 600;
         color: var(--dark);
         text-align: start;
-        margin-left: 5px;
+        margin-left: -10px;
     }
     
     .experience-text > .job-text{
@@ -1150,7 +1148,7 @@ body {
         font-weight: 600;
         color: #a19ea0;
         text-align: start;
-        margin-left: 5px;
+        margin-left: -10px;
     
     }
     .experience-text > .years-text{
@@ -1158,7 +1156,7 @@ body {
         font-weight: 400;
         color: #a19ea0;
         text-align: start;
-        margin-left: 5px;
+        margin-left: -10px;
     }
     
     .experience-years{
