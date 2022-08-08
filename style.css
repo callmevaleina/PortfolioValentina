@@ -1304,12 +1304,12 @@ body {
     }
     
     .web-footer{
-        width: 370px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: auto;
+        margin: 0;
         
     }
     
@@ -1322,7 +1322,7 @@ body {
         display: flex;
         justify-content: center;
         align-content: center;
-       margin-left: -910px;
+        margin-left: 10px;
     }
 }
 
