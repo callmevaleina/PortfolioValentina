@@ -863,6 +863,7 @@ body {
     html {
         width: 375px;
         box-sizing: border-box;
+        overflow-x: hidden;
     }
       
     *,
